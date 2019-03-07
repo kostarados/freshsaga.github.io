@@ -1,0 +1,50 @@
+.henk{
+  background-color: none;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  bottom:0;
+  width:100%;
+  height: auto;
+  overflow: hidden;
+}
+.navbar{
+  list-style-type: none;
+  width:auto;
+  margin: auto;
+  padding:0;
+  background-color: #1d043c;
+}
+
+.navbaritem {
+  float: left;
+    background-color: #eee;
+    color:#1d043c;
+      margin-top:10px;
+}
+
+.navbaritem a {
+  display: block;
+  text-align: center;
+  padding: 24px 40px;
+  text-decoration: none;
+}
+
+.navbaractive{
+  background-color: #eb1570;
+  color: white;
+  margin: -10px 0 0 0;
+}
+
+li a:hover:not(.navbaractive) {
+  background-color: #ffe1ee;
+  color:#eb1570;
+}
+
+.navbaractive:hover{
+  background-color: #ff1e7e;
+  color: white;
+}

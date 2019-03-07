@@ -1,0 +1,42 @@
+export let SampleDataProgressbar = [
+  {
+    id: 1,
+    name: 'Guitar',
+    userid: 1,
+    icon: 'ICON',
+	  progress: 10,
+    goal: 50,
+  },
+  {
+    id: 2,
+    name: 'Painting',
+    userid: 1,
+    icon: 'ICON',
+	  progress: 20,
+    goal: 60,
+  },
+  {
+    id: 3,
+    name: 'Baking',
+    userid: 1,
+    icon: 'ICON',
+	  progress: 30,
+    goal: 70,
+  },
+  {
+    id: 4,
+    name: 'Reading',
+    userid: 1,
+    icon: 'ICON',
+	  progress: 40,
+    goal: 50,
+  },
+  {
+    id: 5,
+    name: 'Sports',
+    userid: 1,
+    icon: 'ICON',
+	  progress: 50,
+    goal: 50,
+  },
+];

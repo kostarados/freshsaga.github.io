@@ -1,0 +1,14 @@
+.app{
+	text-align:center;
+}
+.card{
+	background-color: #ddd;
+	color:#1d043c;
+}
+.card-alt{
+	background-color: #1d043c;
+	color: white;
+	padding: 20px;
+}
+
+

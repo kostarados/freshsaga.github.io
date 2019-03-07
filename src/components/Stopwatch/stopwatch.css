@@ -1,0 +1,104 @@
+
+
+.stopwatch { 
+  text-align: center;
+  margin-bottom: 200px;
+
+}
+.stopwatch-bg { 
+background-color: #777688;
+margin:40px;
+padding: 10px 20px 80px 20px;
+  border-radius: 10px 10px 40px 10px;
+}
+.stopwatch-title {
+  color:#eee;
+}
+
+.stopwatch-screen {
+  font-size: 76px;
+  font-weight: 100;
+  line-height: 160px;
+  margin: 0 30px;
+  border: inset #777688;
+  border-width: 3px 3px;
+  background-color: #9ca04c;
+  color: #3d3f0c;
+  min-height: 400px
+}
+.stopwatch-timer {
+  font-size: 76px;
+  font-weight: 500;
+  line-height: 100px;
+  margin: 0 30px;
+  border-bottom: 3px solid #3d3f0c;
+
+}
+.stopwatch-laps {
+  padding: 0 0 0 30px;
+  margin: 10px 0 0 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.stopwatch-lap {
+  font-size: 20px;
+  line-height: 40px;
+  padding-right: 20px;
+  text-align: right;
+
+}
+
+.stopwatch-lap strong {
+  float: left;
+  font-weight: 400;
+}
+
+.controller {
+  display: flex;
+  justify-content: center;
+}
+.dpad{
+   margin: 0 50px 0 50px;
+}
+
+/*.stopwatch-lap strong::before { content: 'Added to your Progress ' }*/
+
+.btn {
+  font-family: inherit;
+  font-size: 20px;
+  
+  display: inline-block;
+  
+  width: 96px;
+  height: 96px;
+  margin: 24px;
+  padding: 0;
+  
+  cursor: pointer;
+  letter-spacing: 2px;
+  
+  border: 0;
+  border-radius: 50%;
+  outline: none;
+  background: white;
+}
+
+.start-btn {
+  color: white;
+  background-color:#eb1570;
+}
+.stop-btn  {
+  color: #1d043c;
+  background-color: #eee;
+}
+.reset-btn {
+  color: #1d043c;
+  background-color: #eee;
+}
+.lap-btn {
+  color: white;
+  background-color: #eb1570;
+}
